@@ -175,11 +175,11 @@ To use a real serial device you can use a command like this:
 
 ::
 
-    sim_vehicle.py -A "--serial2=uart:/dev/ttyUSB0" --console --map
+    sim_vehicle.py -A "--serial3=uart:/dev/ttyUSB0" --console --map
 
-what that does it pass the --serial2 argument to the ardupilot code,
+what that does it pass the --serial3 argument to the ardupilot code,
 telling it to use /dev/ttyUSB0 instead of the normal internal simulated
-GPS for the 2nd UART. You can find the SITL serial port mappings :ref:`here <learning-ardupilot-uarts-and-the-console>`
+GPS for the 3rd UART. You can find the SITL serial port mappings :ref:`here <learning-ardupilot-uarts-and-the-console>`
 
 Any of the 8 UARTs can be configured in this way, using serial0 to serial7.
 The standard serial ports SERIAL1 and SERIAL2 are uartC and uartD respectively.
